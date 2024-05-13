@@ -28,7 +28,7 @@ const App =() => {
             element={<SwipeCards data={coursesData} />}
           /> */}
 
-          <Route path="/deply-test2/" element={<MainPage />} />
+          <Route path="/" element={<MainPage />} />
         </Routes>
       </HashRouter>
     // <>
