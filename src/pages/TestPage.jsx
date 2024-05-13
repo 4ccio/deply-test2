@@ -1,5 +1,8 @@
 const TestPage = () => {
-  <div>Hello world</div>
+  return (
+    <div>Hello world</div>
+  );
+  
 }
 
 export default TestPage;

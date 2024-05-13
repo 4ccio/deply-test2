@@ -12,26 +12,25 @@ const App =() => {
   // const [count, setCount] = useState(0)
 
   return (
-    <MainPage></MainPage>
-    // <HashRouter>
-    //     <Routes>
-    //       <Route
-    //         path="/deply-test2/testPage"
-    //         element={<TestPage/>}
-    //       />
-    //       {/* <Route path="/crypto" element={<CryptoPage courseId={"crypto"} />} />
-    //       <Route
-    //         path="/real-estate"
-    //         element={<RealEstatePage courseId={"real-estate"} />}
-    //       />
-    //       <Route
-    //         path="/:courseId/:assetId/:lessonId"
-    //         element={<SwipeCards data={coursesData} />}
-    //       /> */}
+    <HashRouter>
+        <Routes>
+          <Route
+            path="/deply-test2/testPage"
+            element={<TestPage/>}
+          />
+          {/* <Route path="/crypto" element={<CryptoPage courseId={"crypto"} />} />
+          <Route
+            path="/real-estate"
+            element={<RealEstatePage courseId={"real-estate"} />}
+          />
+          <Route
+            path="/:courseId/:assetId/:lessonId"
+            element={<SwipeCards data={coursesData} />}
+          /> */}
 
-    //       <Route path="/deply-test2/" element={<MainPage />} />
-    //     </Routes>
-    //   </HashRouter>
+          <Route path="/deply-test2/" element={<MainPage />} />
+        </Routes>
+      </HashRouter>
     // <>
     //   <div>
     //     <a href="https://vitejs.dev" target="_blank">
