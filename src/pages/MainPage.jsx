@@ -2,9 +2,9 @@ import { Link } from "react-router-dom";
 
 const MainPage = () => {
   <div>
-    <Link to={"/deply-test2/testPage"}>
+    {/* <Link to={"/deply-test2/testPage"}> */}
       Main Page Hello
-    </Link>
+    {/* </Link> */}
   </div>
   
 }
